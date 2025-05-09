@@ -7,111 +7,124 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <div class="navbar">
-    <header class="nav-header">
-      <div>
-        <span class="nav-header-letter">N</span>
-        <span class="nav-header-letter">I</span>
-        <span class="nav-header-letter">K</span>
-        <span class="nav-header-letter">K</span>
-        <span class="nav-header-letter">E</span>
-        <span> </span>
-      </div>
-      <div>
-        <span class="nav-header-letter">K</span>
-        <span class="nav-header-letter">A</span>
-        <span class="nav-header-letter">R</span>
-        <span class="nav-header-letter">A</span>
-        <span class="nav-header-letter">K</span>
-        <span class="nav-header-letter">S</span>
-        <span class="nav-header-letter">E</span>
-        <span class="nav-header-letter">L</span>
-        <span class="nav-header-letter">A</span>
-      </div>
-    </header>
-    <nav class="nav-buttons">
-      <a href="#home" class="nav-button">home</a>
-      <a href="#about" class="nav-button">about</a>
-      <a href="#projects" class="nav-button">projects</a>
-    </nav>
-  </div>
-
-  <div class="main-content" id="home">
-    <div class="section">
-      <div class="avatar">
-        <img src="img/DSC02094.JPG" alt="Me" />
-      </div>
-      <div class="section-content">
-        <p>Hello, I'm Nikke Karaksela! <span class="hand">👋</span></p>
-      </div>
-    </div>
-
-    <div class="section" id="about">
-      <div class="section-title">
-        <h5>about</h5>
-      </div>
-      <div class="section-content">
-        <p style="text-align: justify">
-          Fresh software engineer graduate from Tampere University of Applied
-          Sciences. I enjoy designing fun and creative software that is
-          intuitive to use.<br />
-        </p>
-      </div>
-    </div>
-
-    <div class="section" id="projects">
-      <div class="section-title">
-        <h5>projects</h5>
-      </div>
-      <div class="content">
-        <div class="project-cards">
-          <div
-            class="card"
-            onclick="location.href='./projects/weather-app.html'"
-          >
-            <div class="card-title">
-              <h5>Weather App</h5>
-            </div>
-            <div class="card-content">
-              <p>
-                Cross-platform weather application with a sleek looking UI.
-                Displaying live data from OpenWeatherMap API based on user's
-                location or a specified city.
-              </p>
-            </div>
-            <div class="technology-container">
-              <span class="technology">React Native</span>
-              <span class="technology">JavaScript</span>
-              <span class="technology">Expo</span>
-              <span class="technology">OpenWeatherMap API</span>
-            </div>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="main-content" id="home">
+          <div class="section-left">
+            <h1>Nikke Karaksela</h1>
           </div>
 
-          <div class="card" onclick="location.href='./projects/project2.html'">
-            <div class="card-title">
-              <h5>Handwritten Digit Recognition CNN</h5>
-            </div>
-            <div class="card-content">
-              <p>Coming soon...</p>
-            </div>
-            <div class="technology-container">
-              <span class="technology"></span>
-            </div>
-          </div>
-
-          <div class="card" onclick="location.href='./projects/project3.html'">
-            <div class="card-title">
-              <h5>project 3</h5>
-            </div>
-            <div class="card-content">
-              <p>Coming soon... 👷‍♂️⚒</p>
-            </div>
-            <div class="technology-container">
-              <span class="technology"></span>
+          <div style="display: flex; align-items: flex-end; height: 100%">
+            <div class="section-left">
+              <div style="display: flex; gap: 20px">
+                <div class="links" onclick="www.github.com">
+                  <img src="" alt="GitHub" />
+                </div>
+                <div class="links" onclick="www.github.com">
+                  <img src="" alt="GitHub" />
+                </div>
+                <div class="links" onclick="www.github.com">
+                  <img src="" alt="GitHub" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="right">
+        <div class="main-content">
+          <div class="section-right">
+            <div class="avatar">
+              <img src="img/DSC02094.JPG" alt="Me" />
+            </div>
+            <div class="section-content">
+              <p>Hello, I'm Nikke Karaksela! <span class="hand">👋</span></p>
+            </div>
+          </div>
+
+          <div class="section-right" id="about">
+            <div class="section-title">
+              <h5>about</h5>
+            </div>
+            <div class="section-content">
+              <p style="text-align: justify">
+                Fresh software engineer graduate from Tampere University of
+                Applied Sciences. I enjoy developing fun and creative software
+                that is intuitive to use.<br />
+              </p>
+            </div>
+          </div>
+
+          <div class="section-right" id="projects">
+            <div class="section-title">
+              <h5>projects</h5>
+            </div>
+            <div class="content">
+              <div class="project-cards">
+                <div
+                  class="card"
+                  onclick="location.href='./projects/weather-app.html'"
+                >
+                  <div class="card-title">
+                    <h5>Weather App</h5>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Cross-platform weather application with a sleek looking
+                      UI. Displaying live data from OpenWeatherMap API based on
+                      user's location or a specified city.
+                    </p>
+                  </div>
+                  <div class="technology-container">
+                    <span class="technology">React Native</span>
+                    <span class="technology">JavaScript</span>
+                    <span class="technology">Expo</span>
+                    <span class="technology">OpenWeatherMap API</span>
+                  </div>
+                </div>
+
+                <div
+                  class="card"
+                  onclick="location.href='./projects/project2.html'"
+                >
+                  <div class="card-title">
+                    <h5>Handwritten Digit Recognition CNN</h5>
+                  </div>
+                  <div class="card-content">
+                    <p>Coming soon...</p>
+                  </div>
+                  <div class="technology-container">
+                    <span class="technology"></span>
+                  </div>
+                </div>
+
+                <div
+                  class="card"
+                  onclick="location.href='./projects/project3.html'"
+                >
+                  <div class="card-title">
+                    <h5>project 3</h5>
+                  </div>
+                  <div class="card-content">
+                    <p>Coming soon... 👷‍♂️⚒</p>
+                  </div>
+                  <div class="technology-container">
+                    <span class="technology"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer class="copyright-footer">
+            &copy; <span id="year"></span> Nikke Karaksela.
+          </footer>
+
+          <script src="js/footer.js" defer></script>
+        </div>
+      </div>
     </div>
-  </div>
+  </body>
 </html>

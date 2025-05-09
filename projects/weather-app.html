@@ -8,70 +8,66 @@
     <link rel="stylesheet" href="../css/style-video.css" />
   </head>
 
-  <div class="navbar">
-    <header class="nav-header">
-      <div>
-        <span class="nav-header-letter">W</span>
-        <span class="nav-header-letter">E</span>
-        <span class="nav-header-letter">A</span>
-        <span class="nav-header-letter">T</span>
-        <span class="nav-header-letter">H</span>
-        <span class="nav-header-letter">E</span>
-        <span class="nav-header-letter">R</span>
-        <span> </span>
-      </div>
-      <div>
-        <span class="nav-header-letter">A</span>
-        <span class="nav-header-letter">P</span>
-        <span class="nav-header-letter">P</span>
-      </div>
-    </header>
-    <nav class="nav-buttons">
-      <a href="../index.html" class="nav-button">home</a>
-      <a href="../index.html#about" class="nav-button">about</a>
-      <a href="../index.html#projects" class="nav-button">projects</a>
-    </nav>
-  </div>
+  <div class="container">
+    <div class="left">
+      <div class="main-content">
+        <div class="section-left">
+          <h1>Weather App</h1>
+        </div>
 
-  <div class="main-content">
-    <div class="section" style="flex-direction: column">
-      <div class="section-title">
-        <h5>overview</h5>
-      </div>
-      <div class="section-content">
-        <p style="text-align: justify">
-          The Weather App is a cross-platform application built using React
-          Native. It provides users with real-time weather updates and forecast.
-          The app is designed to be user-friendly and visually appealing. The
-          clean UI makes the app easy for users to access the information they
-          need. What started off as a school homework ended up into a neat app!
-        </p>
+        <div class="section-left">
+          <div class="section-title">
+            <h5>overview</h5>
+          </div>
+          <div class="section-content">
+            <p style="text-align: justify">
+              Weather App is a cross-platform application built using React
+              Native. It provides users with real-time weather updates and
+              forecast. The app is designed to be user-friendly and visually
+              appealing. The clean UI makes the app easy for users to access the
+              information they need. What started off as a school homework ended
+              up into a neat app!
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="section">
-      <div class="section-title">
-        <h5>features</h5>
-      </div>
-      <div class="section-content">
-        <p style="text-align: justify">
-          <li>Real-time weather data from OpenWeatherMap API</li>
-          <li>Location-based weather updates</li>
-          <li>Forecast for the next 6 days</li>
-          <li>Works on Android, iOS, and Web</li>
-        </p>
-      </div>
-    </div>
+    <div class="right">
+      <div class="main-content">
+        <div class="section-right" style="flex-direction: column">
+          <div class="section-title">
+            <h5>features</h5>
+          </div>
+          <div class="section-content">
+            <p style="text-align: justify">
+              <li>Real-time weather data from OpenWeatherMap API</li>
+              <li>Location-based weather updates</li>
+              <li>Forecast for the next 6 days</li>
+              <li>Works on Android, iOS, and Web</li>
+            </p>
+          </div>
+        </div>
 
-    <div class="section">
-      <div class="section-title">
-        <h5>demo</h5>
-      </div>
-      <div class="video-container">
-        <video class="rounded-video" controls loop>
-          <source src="./weather-app-demo.mp4" type="video/mp4" />
-          Your browser does not support HTML5 video.
-        </video>
+        <div class="section-right">
+          <div class="section-title">
+            <h5>demo</h5>
+          </div>
+          <div class="section-content">
+            <div class="video-container">
+              <video class="rounded-video" controls loop>
+                <source src="./weather-app-demo.mp4" type="video/mp4" />
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <footer class="copyright-footer">
+          &copy; <span id="year"></span> Nikke Karaksela.
+        </footer>
+
+        <script src="../js/footer.js" defer></script>
       </div>
     </div>
   </div>
